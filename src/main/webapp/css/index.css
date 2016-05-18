@@ -1,0 +1,153 @@
+﻿		@charset "UTF-8";
+		body {
+			margin: 0px;
+			padding: 0px;
+			background-color: #fff;
+		}
+		
+		.common {
+			margin-top :20px;
+		}
+		.content {
+			height:1200px;
+			
+		}
+		.meau {
+			margin-top:20px;
+		}
+		.single {
+			border:1px solid #E5E5E5;
+			height:300px;
+			margin-right:10px;
+			margin-bottom:10px;
+		}
+		.singleone {
+			border:1px solid #E5E5E5;
+			height:300px;
+			margin-right:10px;
+			margin-bottom:10px;
+			width:415px;
+		}
+		.footer{
+			color: #777;
+			padding: 30px 0px;
+			border-top: 1px solid #E5E5E5;
+			margin-top: 30px;
+			background-color: #242F38;
+			height:150px;
+		}
+		.header{
+			background-color: #FAFAFA;
+			border-bottom:0px;
+			height:80px;
+		}
+		
+		.contentStyle{
+			margin-top:20px;
+			height:auto;
+		}
+		
+		.page-header{
+			margin-left:150px;
+		}
+		
+		.searchResult{
+			text-align:left;
+			font-size: 15px;
+			line-height: em;
+			margin:10px;
+		}
+		
+		
+		.rocket{
+			width:27px;
+			height:63px;
+			position:fixed;
+			bottom: 100px;
+		    right: 35px;
+		    cursor: pointer;
+			overflow:hidden;
+			background-image: url("../images/rocket.png");
+		}
+		 
+	    .rocket:hover{
+			background-position: 0 63px;
+			
+		}
+			
+		.logoPicture {
+			height:150px;
+			background-image: url("../images/img1.jpg");
+			background-position: 0 200px;
+			margin-top:-20px;
+		}
+		
+		.loginAndRegister{
+			margin-left:15px;
+			width:120px;
+			height:50px;
+			word-break:break-all;
+			word-wrap:break-word;
+		}
+		
+		.beforeLogin {
+			position:absolute;
+			top:3px;
+			padding-top:5px;
+			color:white;
+			background-color: #00A9E0;
+			width:90px;
+			height:32px;
+		}
+		
+		.afterLogin {
+			position:absolute;
+			top:3px;
+			padding-left:10px;
+			padding-top:5px;
+			color:white;
+			background-color: #00A9E0;
+			white-space: nowrap;
+		    overflow: hidden;
+			text-overflow: ellipsis;
+			width:90px;
+			height:32px;
+		}
+		
+		.searchdialog{
+			margin-top:-5px;
+		}
+		
+		.fontstyle {
+			color : #777777;
+		}
+		.headerFontSize {
+			font-size:18px;
+		}
+		
+		.loginBar {
+			visibility:hidden;
+			position:absolute;
+			top:35px;
+			z-index:1;
+			background-color: #00A9E0;
+			width:90px;
+		}
+		
+		.loginBar ul {
+			list-style-type:none; 
+			margin-left:-23px;
+			padding-top:5px;
+		}
+		
+		.loginBar a {
+			text-decoration:none;
+		}
+		
+		.borderStyle {
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			padding: 25px;
+			margin-bottom: 20px;
+		}
+		

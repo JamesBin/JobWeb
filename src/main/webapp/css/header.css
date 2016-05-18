@@ -1,0 +1,65 @@
+.header{
+	background-color: #FAFAFA;
+	border-bottom:0px;
+	height:80px;
+}
+.loginAndRegister{
+	margin-left:15px;
+	width:120px;
+	height:50px;
+	word-break:break-all;
+	word-wrap:break-word;
+}
+.common {
+	margin-top :20px;
+}
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.searchdialog {
+    margin-top: -5px;
+}
+.headerFontSize {
+    font-size: 18px;
+}
+.beforeLogin {
+    position: absolute;
+    top: 3px;
+    padding-top: 5px;
+    color: white;
+    background-color: #00A9E0;
+    width: 90px;
+    height: 32px;
+}
+.afterLogin {
+	position:absolute;
+	top:3px;
+	padding-left:10px;
+	padding-top:5px;
+	color:white;
+	background-color: #00A9E0;
+	white-space: nowrap;
+    overflow: hidden;
+	text-overflow: ellipsis;
+	width:90px;
+	height:32px;
+}
+.loginBar {
+	visibility:hidden;
+	position:absolute;
+	top:35px;
+	z-index:1;
+	background-color: #00A9E0;
+	width:90px;
+}
+
+.loginBar ul {
+	list-style-type: none;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.loginBar a {
+	text-decoration:none;
+}
